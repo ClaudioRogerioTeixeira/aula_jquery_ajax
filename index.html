@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JQuery & Ajax</title>
+  <script type="text/javascript" src="js/main.js" defer></script>
+  <script type="text/javascript" src="js/jquerymin.js"></script>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <a href="" class="navbar-brand">Consulta CEP</a>
+    <div class="d-flex">
+      <input class="form-control me-2" type="text" placeholder="Digite o Cep" id="cep">
+      <button class="btn btn-outline-success text-white" id="botao" onclick="consultaCep()">Buscar Cep</button>
+    </div>
+  </nav>
+
+  <div class="progress barraProgress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+      aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+  </div>
+
+  <div class="container mt-3">
+    <div class="row">
+      <h3 id="tituloCep"></h3>
+    </div>
+    <div class="row mt-3">
+      <table class="table cep">
+        <tbody>
+          <tr>
+            <td>Logradouro</td>
+            <td id="logradouro"></td>
+          </tr>
+          <tr>
+            <td>Bairro</td>
+            <td id="bairro"></td>
+          </tr>
+          <tr>
+            <td>Localidade</td>
+            <td id="localidade"></td>
+          </tr>
+          <tr>
+            <td>UF</td>
+            <td id="uf"></td>
+          </tr>
+        </tbody>
+      </table>
+      <span id="ibge"></span>
+    </div>
+  </div>
+</body>
+
+</html>
