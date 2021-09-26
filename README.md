@@ -8,6 +8,7 @@ Construir um projeto utilizando JQuery e Ajax
 * Html
 * Css
 * Flexbox
+* JQuery
 * Javascript
 * Bootstrap
 
