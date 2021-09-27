@@ -7,7 +7,6 @@ Construir um projeto utilizando JQuery e Ajax
 * Praticar as seguintes tecnologias.
 * Html
 * Css
-* Flexbox
 * JQuery
 * Javascript
 * Bootstrap
